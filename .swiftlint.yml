@@ -21,10 +21,14 @@ opt_in_rules:
   - redundant_nil_coalescing
   - vertical_parameter_alignment_on_call
 
-type_name:
+identifier_name:
+  min_length: 3
   max_length: 50
   excluded:
     - id
+
+type_name:
+  max_length: 50
 
 custom_rules:
   comment_space:
